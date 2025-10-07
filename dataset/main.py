@@ -25,7 +25,6 @@ if __name__ == "__main__":
         "train.jsonl",
         "true_trained.jsonl"
     ]
-    exit()
     for file_path in files_to_delete:
         try:
             os.remove(file_path)

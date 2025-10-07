@@ -1,4 +1,4 @@
-1. download.py
-2. generate_candidates.py
-3. generate_sentences.py
-4. 
+# Dataset
+
+To make the dataset, move to the `dataset` dir and run `main.py`.
+(Python>3.11 required)
