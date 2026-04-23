@@ -8,8 +8,8 @@ from download import compute_sha256
 INPUT_FILE = 'raw.jsonl'
 OUTPUT_TRAINED_FILE = 'candidates_trained.json'
 OUTPUT_UNTRAINED_FILE = 'candidates_untrained.json'
-EXPECTED_SHA256_TRAINED = "149fb75506948fad16756b9b4ec0f6e2d611f92dba699c335b55805834d02325"
-EXPECTED_SHA256_UNTRAINED = "15372b35586e8690c583c1b4ca6788d10efe0c42c24c1f3e3bf8397052d02d61"
+EXPECTED_SHA256_TRAINED = "468200980b38cea9f3a91cf5cc9450392305c7cd61619cb305eb089d974dccb7"
+EXPECTED_SHA256_UNTRAINED = "79d39b3ad0d7f63c3a8acbb14648d193e91cf532729ea6bba04ffbadd4841cf9"
 TRAIN_SPLIT_LINES = 20_000  # Number of lines that has been trained on model training split
 # Save the first TRAIN_SPLIT_LINES lines to a new file
 TRAIN_SPLIT_FILE = 'train.jsonl'

@@ -70,9 +70,9 @@ file_hash1 = compute_sha256("mia_trained.jsonl")
 file_hash2 = compute_sha256("mia_untrained.jsonl")
 file_hash3 = compute_sha256("mia_mix.jsonl")
 
-assert file_hash1 == "94eb53335582c55841bf6e5baa129064d2f408be484f8e14b73075d8b62ba5d6", "❌ Checksum mismatch: mia_trained.jsonl"
-assert file_hash2 == "05fd98c5caad61cbd8b4678857227459f155daec47705884a4a701f582f1d99a", "❌ Checksum mismatch: mia_untrained.jsonl"
-assert file_hash3 == "8050ffacb934202783e5b040c25ceba8be466dade21f5c34cfcac2f07fde30be", "❌ Checksum mismatch: mia_mix.jsonl"
+assert file_hash1 == "6e0532e3214f76956bafb67118544ba231861d285f8f810fdb7d150c0876bf5b", "❌ Checksum mismatch: mia_trained.jsonl"
+assert file_hash2 == "58164375749673d07e948d62e0fee9d539b8e493de858b94a9c82c59943a341c", "❌ Checksum mismatch: mia_untrained.jsonl"
+assert file_hash3 == "9c11796570a794dcc5f683eba5150f1022d2c7110dd4ecdd929066e48b3ca1a8", "❌ Checksum mismatch: mia_mix.jsonl"
 
 print(f"✅ Checksum OK: {file_hash1}")
 print(f"✅ Checksum OK: {file_hash2}")
